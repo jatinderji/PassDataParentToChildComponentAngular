@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<hr>
+<!-- Sending Data from Parent Component(app.component) -->
+<!-- Must handle in Child Component(child.component) -->
+<app-child [myItem]="data"></app-child>
+<br>
+<button (click)="updateChildComponent()">Update Child Component</button>
